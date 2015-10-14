@@ -1,0 +1,29 @@
+{
+  "name": "node_starter_app",
+  "version": "0.0.1",
+  "description": "Starter node app with bootstrap styling",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatMurp/node-starter.git"
+  },
+  "keywords": [
+    "\"Node\""
+  ],
+  "author": "Patrick Murphy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatMurp/node-starter/issues"
+  },
+  "homepage": "https://github.com/PatMurp/node-starter#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.4.0",
+    "errorhandler": "^1.4.2",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1"
+  }
+}
