@@ -3,7 +3,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Node Starter App</title>
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+	<!-- cerulean bootstrap theme https://bootswatch.com/cerulean/ -->
 	<link rel="stylesheet" type="text/css" href="css/cerulean-bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-switch.css">
 </head>
 <body>
 	<!-- responsive bootstrap navbar -->
@@ -32,9 +35,16 @@
 		<div class="jumbotron">
 		  <h1>Welcome to node starter app!</h1>
 		</div><!-- jumbotron end -->
+		
+		<!-- on off switch http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+		<div id="dimension-switch" class="make-switch switch-large" data-on="success" data-off="danger">
+		    <input type="checkbox" checked>
+		</div>
 	</div><!-- container end -->
 
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap-switch.js"></script>
+	<script src='app.js'></script>
 </body>
 </html>
